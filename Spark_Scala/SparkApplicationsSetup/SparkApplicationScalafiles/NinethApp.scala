@@ -4,8 +4,9 @@ import org.apache.spark.SparkContext
 //import org.apache.spark.SparkContext._ 
 import org.apache.spark.SparkConf 
 
-object FifthApp extends App{
-val conf = new SparkConf().setAppName("HeySparkStreaming").setMaster("local[2]")
+object NinethApp extends App{
+val conf = new SparkConf().setAppName("HeySparkStreaming")
+//.setMaster("local[2]")
 val sc = new SparkContext(conf)
 val ssc = new StreamingContext(sc , Seconds(10))
 //setting up receiver

@@ -10,11 +10,13 @@ import org.apache.spark.streaming.api._
 import org.apache.spark.storage.StorageLevel
 
 object StreamingWapp extends App{
-val conf = new SparkConf().setAppName("HeySparkStreamingW").setMaster("local[2]")
+val conf = new SparkConf().setAppName("HeySparkStreamingW")
+//.setMaster("local[2]")
 val sc = new SparkContext(conf)
 val ssc = new StreamingContext(sc , Seconds(10))
 //setting up receiver
 val streamRDD = ssc.socketTextStream("127.0.0.1",2222,StorageLevel.MEMORY_ONLY)
+//val test = streamRDD.saveAsObjectFiles("mydata")
 val wordcounts = streamRDD.flatMap(line => line.split(" "))
                           .map(word => (word,1))
                           .reduceByKeyAndWindow((a:Int,b:Int)=>a+b,Seconds(30),Seconds(10))
