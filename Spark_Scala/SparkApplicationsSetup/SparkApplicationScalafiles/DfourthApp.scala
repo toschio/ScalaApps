@@ -10,7 +10,7 @@ import org.apache.spark.SparkConf
 //import scala.collection.mutable.ArrayBuffer
 //import scala.io.Source
 
-object FourthApp extends App{
+object DfourthApp extends App{
   val conf = new SparkConf().setAppName("DataSpark").setMaster("local")
   val sc = new SparkContext(conf)
   val fileInfoFile_with_Marked_Data = "C:\\Users\\Win10\\workspace\\MysparkApps\\DataFile.txt"
@@ -18,6 +18,6 @@ object FourthApp extends App{
   val x = sc.textFile(fileInfoFile_with_Marked_Data)
   //val sample1 = x
   val newDS = x.zipWithIndex().map{case(line,i)=>i.toString + "," + line}
-  newDS.count
+  newDS.take(10).foreach(println)
 sc.stop()
 }

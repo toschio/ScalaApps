@@ -8,7 +8,7 @@ import org.apache.spark.sql
 import org.apache.spark.sql.types._
 import org.apache.spark.sql.Row
 
-object SixthApp extends App {
+object FsixthApp extends App {
 val conf = new SparkConf().setAppName("HelloSpark").setMaster("local").set("spark.debug.maxToStringFields","100")
 
 val sc = new SparkContext(conf)

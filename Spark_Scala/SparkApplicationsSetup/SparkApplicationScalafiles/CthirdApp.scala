@@ -5,7 +5,7 @@ package main.scala
 //import org.apache.spark.SparkConf
 import org.apache.spark.sql.SparkSession
 
-object ThirdApp extends App{
+object CthirdApp extends App{
 
 //val conf = new SparkConf().setAppName("HelloSpark").setMaster("local")
 //val sc = new SparkContext(conf)

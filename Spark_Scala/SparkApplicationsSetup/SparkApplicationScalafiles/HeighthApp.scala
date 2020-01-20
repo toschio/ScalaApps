@@ -10,7 +10,7 @@ import org.apache.spark.sql.Row
 import scala.collection.mutable.ArrayBuffer
 import scala.io.Source
 
-object EighthApp extends App {
+object HeighthApp extends App {
 val conf = new SparkConf().setAppName("HelloSpark").setMaster("local")
 //.set("spark.debug.maxToStringFields","100")
 

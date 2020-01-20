@@ -11,7 +11,7 @@ import org.apache.spark.SparkConf
 //import org.apache.spark.SparkContext._
 //import org.apache.spark.SparkConf
  
-object FifthApp extends App{
+object EfifthApp extends App{
 val conf = new SparkConf().setAppName("HelloSpark")
 val sc = new SparkContext(conf) 
 //val spark =  SparkSession.builder()

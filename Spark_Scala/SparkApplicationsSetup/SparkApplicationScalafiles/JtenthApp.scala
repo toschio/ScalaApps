@@ -9,7 +9,7 @@ import org.apache.spark.api.java.function._
 import org.apache.spark.streaming.api._
 import org.apache.spark.storage.StorageLevel
 
-object StreamingWapp extends App{
+object JtenthApp extends App{
 val conf = new SparkConf().setAppName("HeySparkStreamingW")
 //.setMaster("local[2]")
 val sc = new SparkContext(conf)

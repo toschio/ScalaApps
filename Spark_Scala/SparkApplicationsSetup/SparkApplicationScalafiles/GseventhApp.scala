@@ -5,7 +5,7 @@ import org.apache.spark.SparkContext._
 import org.apache.spark.SparkConf
 import org.apache.spark.sql.SparkSession
 
-object SeventhApp extends App{
+object GseventhApp extends App{
 val conf = new SparkConf().setAppName("HelloSpark").setMaster("local")
 val sc = new SparkContext(conf)
 println("printing metadata info from fileInfo.txt")

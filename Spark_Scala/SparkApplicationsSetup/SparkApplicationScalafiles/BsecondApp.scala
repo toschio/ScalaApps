@@ -4,7 +4,7 @@ import org.apache.spark.SparkContext
 import org.apache.spark.SparkContext._ 
 import org.apache.spark.SparkConf 
 
-object SecondApp extends App {
+object BsecondApp extends App {
     val logFile = "cv000_29416.txt" // Should be some file on your system 
     val conf = new SparkConf().setAppName("SimpleApplication").setMaster("local") 
     //val conf = new SparkConf().setAppName(Simple Application)
