@@ -245,16 +245,13 @@ object Code23 {
    for(i <- 0 to 9){
    for(j <- 0 to 9) { 
    multTable(i)(j) = i * j 
-
+   }}
    for(i <- 0 to 9){
    for(j <- 0 to 9) { 
    print("%d : %d = %d\n" , i , j, multTable(i)(j))
    }
    }
    
-
-}
-}
 ==================
 Maps:
 
