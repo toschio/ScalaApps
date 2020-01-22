@@ -3,7 +3,7 @@ Classes:
 
 Template definition of the method(s) and variable(s) in a particular kind of object.
 So Object is an instance of class which contains variables and methods.
-In Scala class is not declared public as by default it is public
+In Scala ,class is not declared public as by default it is public
 
 scala> class Ctr {
 private var value = 0 //fields must be initialized
@@ -11,10 +11,10 @@ def incr() {value += 1}
 def curr() = value
 }
 
-object Code27 {
+object Code27Cl {
   def main(args: Array[String]){
-  //classes are used as blue prints to created real world objects ,objects define attributes  which are called fields in OO world
-  //& capabilities of those objects which are called methods
+  //classes are used as blue prints to created real world objects ,objects define attributes  which are called fields 
+  //in OO world & capabilities of those objects which are called methods
   //usually created outside main
   
   val wolf = new Animal

@@ -11,7 +11,7 @@ obj.someProp = someVal          	def someProp(someVal: String) = {
                                 	//setter code
                                 	}
 //variable declaration, here it is immutable
-//scala is a statitically types language, if we have wrong types we will know at compile time
+//scala is a statitically typed language, if we have wrong types we will know at compile time
 val someVar:SomeType = someVal
 
 //

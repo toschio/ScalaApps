@@ -2,7 +2,8 @@ Scala Notes - 1
 -------------
 If you want to explore the world of functional programming without compltely disregarding OOP concepts.
 It runs on top of JVM ,which means,it has tonne of libraries to use.
-Scala is not an interpreted language,its a compiled language.Anything written in shell is converted into a class file, compiled and then executed.
+Scala is not an interpreted language,its a compiled language.Anything written in shell is converted into a class file, 
+compiled and then executed.
 
 On Windows
 Download Scala and run through the setup.
@@ -664,7 +665,8 @@ object Code10 {
 }
    
 ==================
-/* Styling characters F with doubles, %c for characters, %d for any different integer types ,f for floating point numbers & s for strings*/
+/* Styling characters F with doubles, %c for characters, %d for any different integer types ,
+f for floating point numbers & s for strings*/
 /* right justifications printf("'%5d'\n", 5)
    left justifications printf("'%-5d'\n", 5) */
 
@@ -729,9 +731,9 @@ object Code13 {
 }
 ==================
 Functions:
-C:\Users\Win10>type nul > code14.scala
+C:\Users\Win10>type nul > code14F.scala
 
-C:\Users\Win10>notepad code14.scala
+C:\Users\Win10>notepad code14F.scala
 
 /*Functions*/
 //def funcName(param1:dataType,param2:dataType): returnType = {
@@ -746,9 +748,9 @@ object Code14 {
 }
 
 ===========
-C:\Users\Win10>type nul > code15.scala
+C:\Users\Win10>type nul > code15F.scala
 
-C:\Users\Win10>notepad code15.scala
+C:\Users\Win10>notepad code15F.scala
 
 /*Functions that donot return values or called procedures in scala*/
 //def funcName(param1:dataType,param2:dataType): returnType = {
@@ -762,9 +764,9 @@ object Code15 {
   }
 }}
 ===========
-C:\Users\Win10>type nul > code16.scala
+C:\Users\Win10>type nul > code16F.scala
 
-C:\Users\Win10>notepad code16.scala
+C:\Users\Win10>notepad code16F.scala
 
 //receiving variable number of arguments ,try in the object
 object Code16 {
@@ -781,9 +783,9 @@ object Code16 {
 }
 ==============================
 Recursion in functions:
-C:\Users\Win10>type nul > code17.scala
+C:\Users\Win10>type nul > code17F.scala
 
-C:\Users\Win10>notepad code17.scala
+C:\Users\Win10>notepad code17F.scala
 
 //function calling itself
 
