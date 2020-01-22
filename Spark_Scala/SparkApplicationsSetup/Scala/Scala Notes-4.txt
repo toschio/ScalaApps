@@ -3,6 +3,7 @@ Classes:
 
 Template definition of the method(s) and variable(s) in a particular kind of object.
 So Object is an instance of class which contains variables and methods.
+
 In Scala ,class is not declared public as by default it is public
 
 scala> class Ctr {
