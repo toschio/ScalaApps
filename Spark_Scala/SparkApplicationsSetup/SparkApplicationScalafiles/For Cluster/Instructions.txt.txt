@@ -1,0 +1,2 @@
+Copy these files in /usr/local/spark as we will run
+spark-submit (packaged applications) from this location
